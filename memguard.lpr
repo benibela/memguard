@@ -138,6 +138,7 @@ end;
 begin
   fpNice(-10);
   whiteList := TStringList.Create;
+  //allow certain programs to use more memory
   allow('firefox-bin', 4000);
   allow('qtcreator', 4000);
   allow('cc1plus', 1500);

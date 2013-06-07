@@ -1,0 +1,2 @@
+include programs/system/memguard
+rename programs/system/memguard .
